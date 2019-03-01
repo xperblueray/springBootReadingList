@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reading List</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<h2>Your Reading List</h2>
+<div th:unless=""${#lists.isEmpty(books}>
+    <dl th:each="book : ${books}">
+        <dt>
+            <span></span>
+            <span></span>
+        </dt>
+        <dd>
+            <span></span>
+            <span></span>
+        </dd>
+    </dl>
+</div>
+<div>
+    <p></p>
+</div>
+<hr>
+<h3></h3>
+<form action="">
+    <label for=""></label><input type="text"><br>
+    <label for=""></label><input type="text"><br>
+    <label for=""></label><input type="text"><br>
+    <label for=""></label><textarea type="text"><br>
+</form>
+
+</body>
+</html>
